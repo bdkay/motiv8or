@@ -1,10 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import { firebaseApp } from './firebase';
 
 import App from './components/App';
 import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
+
+
+firebase.auth().onAuthStateChanged(user => {
+  if (user){
+    console.log('a user has signed up!', user);
+  } else {
+    console.log('user is logged out');
+  }
+});
 
 ReactDOM.render(
   <BrowserRouter>
