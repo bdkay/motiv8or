@@ -6,7 +6,10 @@ class SignUp extends Component {
     super(props);
     this.state = {
       email: '',
-      password: ''
+      password: '',
+      error: {
+        message: ''
+      }
     }
   }
   
@@ -15,7 +18,8 @@ class SignUp extends Component {
     const { email, password } = this.state;
     firebaseApp.auth().createUserAndRetrieveDataWithEmailAndPassword(email, password)
       .catch(error => {
-        console.log(error)
+        console.log('error', error);
+        this.setState({error});
       })
   }
   
@@ -44,6 +48,7 @@ class SignUp extends Component {
             Sign Up
           </button>
         </div>
+        <div>{this.state.error.message}</div>
       </div>
     )
   }
