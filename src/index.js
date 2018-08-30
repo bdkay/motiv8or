@@ -9,7 +9,7 @@ import SignUp from './components/SignUp';
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/" component={App} />
+      <Route exact path="/" component={App} />
       <Route path="/App" component={App} />
       <Route path="/signin" component={SignIn} />
       <Route path="/signup" component={SignUp} />
