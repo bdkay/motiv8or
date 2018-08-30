@@ -11,6 +11,7 @@ import SignUp from './components/SignUp';
 firebaseApp.auth().onAuthStateChanged(user => {
   if (user){
     console.log('a user has signed up or in!', user);
+    BrowserRouter.push('/app');
   } else {
     console.log('user is logged out');
   }

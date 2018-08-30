@@ -54,7 +54,8 @@ class SignIn extends Component {
           </button>
         </div>
         <div>{this.state.error.message}</div>
-        <div><Link to={'/signup'}>Sign Up</Link></div>
+        <br /><br />
+        <div><Link style={{margin: '5%', textDecoration: 'underline'}} to={'/signup'}>Sign Up</Link></div>
       </div>
     )
   }
