@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { firebaseApp } from '../firebase';
+import { Link } from 'react-router-dom';
 
 class SignIn extends Component {
   constructor(props){
@@ -53,6 +54,7 @@ class SignIn extends Component {
           </button>
         </div>
         <div>{this.state.error.message}</div>
+        <div><Link to={'/signup'}>Sign Up</Link></div>
       </div>
     )
   }
