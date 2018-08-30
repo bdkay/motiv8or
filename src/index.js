@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
-import { firebaseApp } from './firebase';
+import { fireBaseApp } from './firebase';
 
 import App from './components/App';
 import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
 
 
-firebase.auth().onAuthStateChanged(user => {
+fireBaseApp.auth().onAuthStateChanged(user => {
   if (user){
     console.log('a user has signed up!', user);
   } else {
