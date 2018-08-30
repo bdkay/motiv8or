@@ -10,8 +10,7 @@ class SignUp extends Component {
       password: '',
       error: {
         message: ''
-      },
-      loggedIn: false
+      }
     }
   }
   
