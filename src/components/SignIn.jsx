@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { firebaseApp } from '../firebase';
 import { Link } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 
 class SignIn extends Component {
   constructor(props){
@@ -15,13 +16,14 @@ class SignIn extends Component {
   }
   
   signIn(){
-    console.log('this.state', this.state);
-    const { email, password } = this.state;
+    const { email, password} = this.state;
     firebaseApp.auth().signInWithEmailAndPassword(email, password)
+      .then(this.props.history.push('/App'))
       .catch(error => {
         console.log('error', error);
         this.setState({error});
-      })
+      });
+    console.log('this.state', this.state);
   }
   
   render(){
@@ -55,10 +57,10 @@ class SignIn extends Component {
         </div>
         <div>{this.state.error.message}</div>
         <br /><br />
-        <div><Link style={{margin: '5%', textDecoration: 'underline'}} to={'/signup'}>Sign Up</Link></div>
+        <div><Link style={{margin: '5%', textDecoration: 'underline'}} to={'/signup'}>Sign Up Instead</Link></div>
       </div>
     )
   }
 }
 
-export default SignIn;
+export default withRouter(SignIn);

@@ -1,29 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter, Route, Switch} from 'react-router-dom'
-import { firebaseApp } from './firebase';
-
-import App from './components/App';
-import SignIn from './components/SignIn';
-import SignUp from './components/SignUp';
-
-
-firebaseApp.auth().onAuthStateChanged(user => {
-  if (user){
-    console.log('a user has signed up or in!', user);
-    BrowserRouter.push('/app');
-  } else {
-    console.log('user is logged out');
-  }
-});
+import { Router } from 'react-router-dom';
+import history from './helpers/history';
+import Routes from './components/Router';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Switch>
-      <Route exact path="/" component={App} />
-      <Route path="/App" component={App} />
-      <Route path="/signin" component={SignIn} />
-      <Route path="/signup" component={SignUp} />
-    </Switch>
-  </BrowserRouter>, document.getElementById('root')
+  <Router history={history}>
+    <Routes />
+  </Router>, document.getElementById('root')
 );
