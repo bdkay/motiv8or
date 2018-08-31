@@ -35,6 +35,7 @@ class AddGoal extends Component {
             Submit
           </button>
         </div>
+        <br /><br />
       </div>
     )
   }
