@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import { Route, Router, Redirect } from 'react-router-dom';
 import { createStore } from 'redux';
 import { firebaseApp } from './firebase';
-import reducer from './reducers';
+import reducer_user from './reducers/reducer-user';
 import createBrowserHistory from 'history/createBrowserHistory';
 import App from './components/App';
 import SignIn from './components/SignIn';
@@ -12,7 +12,7 @@ import SignUp from './components/SignUp';
 import { logUser } from './actions';
 
 const browserHistory = createBrowserHistory();
-const store = createStore(reducer);
+const store = createStore(reducer_user);
 
 firebaseApp.auth().onAuthStateChanged(user => {
   if (user) {
