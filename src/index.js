@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import { Route, Router, Redirect } from 'react-router-dom';
 import { createStore } from 'redux';
 import { firebaseApp } from './firebase';
-import reducer_user from './reducers/reducer-user';
+import reducer_user from './reducers/reducer_user';
 import createBrowserHistory from 'history/createBrowserHistory';
 import App from './components/App';
 import SignIn from './components/SignIn';
