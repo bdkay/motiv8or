@@ -12,7 +12,7 @@ class GoalList extends Component {
         const { email, title } = goal.val();
         goals.push({ email, title });
       });
-      console.log('goals', goals);
+      this.props.setGoals(goals);
     })
   }
   

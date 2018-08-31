@@ -14,6 +14,6 @@ export function setGoals(goals){
   const action = {
     type: SET_GOALS,
     goals: goals
-  }
+  };
   return action;
 }
