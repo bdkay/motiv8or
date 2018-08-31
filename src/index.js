@@ -24,7 +24,7 @@ firebaseApp.auth().onAuthStateChanged(user => {
     console.log('user signed out or still needs to sign in', user);
     return <Redirect to='/signin'/>;
   }
-})
+});
 
 ReactDOM.render(
   <Provider store={store}>
