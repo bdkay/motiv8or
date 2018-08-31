@@ -4,6 +4,7 @@ import { firebaseApp } from '../firebase';
 class App extends Component {
   signOut(){
     firebaseApp.auth().signOut();
+    this.props.history.push('/signin');
   }
   render(){
     return (

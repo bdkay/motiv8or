@@ -11,7 +11,7 @@ class Routes extends Component {
       if(user) {
         console.log('user has signed in or up', user);
         return <Redirect to='/App'/>;
-      } else if (this.state.error) {
+      } else {
         console.log('user signed out or still needs to sign in', user);
         return <Redirect to='/signin'/>;
       }

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { firebaseApp } from '../firebase';
-import { Link } from 'react-router-dom';
 
 class SignUp extends Component {
   constructor(props){
@@ -18,10 +17,10 @@ class SignUp extends Component {
     console.log('this.state', this.state);
     const { email, password } = this.state;
     firebaseApp.auth().createUserWithEmailAndPassword(email, password)
-      .then(this.setState({loggedIn: true}))
+      .then(this.props.history.push('/signin'))
       .catch(error => {
-        console.log('error', error);
         this.setState({error});
+        this.props.history.push('/signup');
       })
   }
   
@@ -55,7 +54,7 @@ class SignUp extends Component {
           </button>
         </div>
         <div>{this.state.error.message}</div>
-        <div><Link to={'/signin'}>Already a User? Sign In!</Link></div>
+        <div><a href={'/signin'}>Already a User? Sign In!</a></div>
       </div>
     )
   }
