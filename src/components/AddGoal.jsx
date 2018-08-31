@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { goalRef } from '../firebase';
+import { setGoals } from '../actions';
 
 class AddGoal extends Component {
   constructor(props){

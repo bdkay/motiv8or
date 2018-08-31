@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2ff1667e-bc48-43d9-bcda-ac8198d5f112" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AddGoal.jsx" afterPath="$PROJECT_DIR$/src/components/AddGoal.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/GoalList.jsx" afterPath="$PROJECT_DIR$/src/components/GoalList.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,11 +39,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddGoal.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddGoal.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/AddGoal.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="81">
+              <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoalList.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/GoalList.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -140,10 +148,10 @@
         <option value="$PROJECT_DIR$/src/actions/index.js" />
         <option value="$PROJECT_DIR$/src/reducers/reducer_goals.js" />
         <option value="$PROJECT_DIR$/src/reducers/index.js" />
-        <option value="$PROJECT_DIR$/src/components/AddGoal.jsx" />
         <option value="$USER_HOME$/Desktop/ReactJS_VideoGuides-master/goalCoach/src/components/AddGoal.jsx" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/GoalList.jsx" />
+        <option value="$PROJECT_DIR$/src/components/AddGoal.jsx" />
       </list>
     </option>
   </component>
@@ -696,7 +704,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28939000" />
+    <option name="totallyTimeSpent" value="29033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="23" width="1599" height="1027" extended-state="0" />
@@ -1150,20 +1158,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/GoalList.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/AddGoal.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="81">
+          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AddGoal.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/GoalList.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        <state relative-caret-position="594">
+          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
