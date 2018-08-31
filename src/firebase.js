@@ -1,7 +1,7 @@
 import * as firebase from 'firebase';
 
 var config = {
-  apiKey: "AIzaSyBG9GkxgyPDrhTqwH0Rfh0wgIzA6OjIp0U",
+  apiKey: "AIzaSyCWCt3zoCSGMzA_4gGfprHB8CZ_SAaIrhI",
   authDomain: "motiv8or-54423.firebaseapp.com",
   databaseURL: "https://motiv8or-54423.firebaseio.com",
   projectId: "motiv8or-54423",

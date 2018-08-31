@@ -8,7 +8,7 @@ import '../css/style.css';
 class App extends Component {
   signOut(){
     firebaseApp.auth().signOut();
-    this.props.history.push('/signin');
+    this.props.history.replace('/signin');
   }
   render(){
     return (

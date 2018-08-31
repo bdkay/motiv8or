@@ -18,7 +18,7 @@ firebaseApp.auth().onAuthStateChanged(user => {
   if (user) {
     console.log('user has signed in or up', user);
     store.dispatch(logUser(user.email));
-    return <Redirect to='/App'/>;
+    return <Redirect to='/app'/>;
   } else {
     console.log('user signed out or still needs to sign in', user);
     return <Redirect to='/signin'/>;
@@ -29,7 +29,6 @@ ReactDOM.render(
   <Provider store={store}>
     <Router path="/" history={browserHistory}>
       <div>
-        <Route path="/" component={App} />
         <Route path="/app" component={App} />
         <Route path="/signin" component={SignIn} />
         <Route path="/signup" component={SignUp} />

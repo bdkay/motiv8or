@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { goalRef } from '../firebase';
 
 class AddGoal extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       title: ''
@@ -16,13 +16,13 @@ class AddGoal extends Component {
     goalRef.push({email, title});
   }
   
-  render(){
+  render() {
     return (
       <div className="form-inline">
         <div className="form-group">
           <input
             type="text"
-            placeholder="Add a Goal"
+            placeholder="Add a goal"
             className="form-control"
             style={{marginRight: '5px'}}
             onChange={event => this.setState({title: event.target.value})}
@@ -40,11 +40,12 @@ class AddGoal extends Component {
   }
 }
 
-function mapStateToProps(state){
+function mapStateToProps(state) {
   const { user } = state;
   return {
-    user: user
+    user
   }
 }
+
 
 export default connect(mapStateToProps, null)(AddGoal);
