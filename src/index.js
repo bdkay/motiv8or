@@ -17,7 +17,6 @@ const store = createStore(reducer);
 firebaseApp.auth().onAuthStateChanged(user => {
   if (user) {
     console.log('user has signed in or up', user);
-    const { email } = user;
     store.dispatch(logUser(user.email));
     return <Redirect to='/App'/>;
   } else {
