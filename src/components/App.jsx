@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { firebaseApp } from '../firebase';
 import { connect } from 'react-redux';
 import AddGoal from './AddGoal';
+import GoalList from './GoalList';
 import '../css/style.css';
 
 class App extends Component {
@@ -14,7 +15,7 @@ class App extends Component {
       <div className="app">
         <h3>Goals</h3>
         <AddGoal />
-        <div>Goal List</div>
+        <GoalList />
         <br /><br /><br /><br />
         <button
           className="btn btn-danger"
