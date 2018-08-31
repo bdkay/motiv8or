@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ff1667e-bc48-43d9-bcda-ac8198d5f112" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/App.jsx" afterPath="$PROJECT_DIR$/src/components/App.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AddGoal.jsx" afterPath="$PROJECT_DIR$/src/components/AddGoal.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/GoalList.jsx" afterPath="$PROJECT_DIR$/src/components/GoalList.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/SignUp.jsx" afterPath="$PROJECT_DIR$/src/components/SignUp.jsx" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/AddGoal.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="23">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="55" />
+              <caret line="9" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="55" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -53,8 +54,8 @@
       <file leaf-file-name="GoalList.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/GoalList.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="216">
+              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -151,6 +152,10 @@
       <find>&lt;Link</find>
       <find>&quot;&lt;Link &quot;</find>
       <find>&quot;&lt;Link</find>
+      <find>cop</find>
+      <find>co</find>
+      <find>console.</find>
+      <find>console.log</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -733,7 +738,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27312000" />
+    <option name="totallyTimeSpent" value="27584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="23" width="1599" height="1027" extended-state="0" />
@@ -1173,7 +1178,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/AddGoal.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="55" />
+          <caret line="9" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="55" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -1198,8 +1203,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/GoalList.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="216">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
