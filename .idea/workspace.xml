@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ff1667e-bc48-43d9-bcda-ac8198d5f112" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/GoalItem.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AddGoal.jsx" afterPath="$PROJECT_DIR$/src/components/AddGoal.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/GoalList.jsx" afterPath="$PROJECT_DIR$/src/components/GoalList.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/GoalItem.jsx" afterPath="$PROJECT_DIR$/src/components/GoalItem.jsx" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,8 +54,8 @@
       <file leaf-file-name="GoalItem.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/GoalItem.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="108">
+              <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -719,12 +716,12 @@
       <updated>1535609414600</updated>
       <workItem from="1535609416035" duration="15521000" />
       <workItem from="1535729850414" duration="2737000" />
-      <workItem from="1535738072691" duration="4451000" />
+      <workItem from="1535738072691" duration="5099000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36730000" />
+    <option name="totallyTimeSpent" value="37378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="100" y="23" width="1580" height="1027" extended-state="0" />
@@ -1119,8 +1116,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/GoalItem.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="108">
+          <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
           <folding />
         </state>
       </provider>
