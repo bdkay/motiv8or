@@ -30,6 +30,7 @@ ReactDOM.render(
   <Provider store={store}>
     <Router path="/" history={browserHistory}>
       <div>
+        <Route path="/" component={App} />
         <Route path="/app" component={App} />
         <Route path="/signin" component={SignIn} />
         <Route path="/signup" component={SignUp} />
