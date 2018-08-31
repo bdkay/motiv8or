@@ -18,7 +18,7 @@ firebaseApp.auth().onAuthStateChanged(user => {
   if (user) {
     console.log('user has signed in or up', user);
     const { email } = user;
-    store.dispatch(logUser(email));
+    store.dispatch(logUser(user.email));
     return <Redirect to='/App'/>;
   } else {
     console.log('user signed out or still needs to sign in', user);

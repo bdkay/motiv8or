@@ -17,6 +17,7 @@ class GoalList extends Component {
   }
   
   render(){
+    console.log('this.props.goals', this.props.goals);
     return (
       <div>Goal List</div>
     )
