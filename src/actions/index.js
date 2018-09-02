@@ -1,4 +1,4 @@
-import { SIGNED_IN, SET_GOALS } from '../constants';
+import { SIGNED_IN, SET_GOALS, SET_COMPLETED } from '../constants';
 
 //Action creators
 
@@ -15,5 +15,13 @@ export function setGoals(goals){
     type: SET_GOALS,
     goals: goals
   };
+  return action;
+}
+
+export function setCompleted(completeGoals){
+  const action = {
+    type: SET_COMPLETED,
+    completeGoals: completeGoals
+  }
   return action;
 }
