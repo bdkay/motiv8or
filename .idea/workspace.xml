@@ -4,11 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/components/SignIn.jsx" line="49" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ff1667e-bc48-43d9-bcda-ac8198d5f112" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/CompleteGoalList.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/App.jsx" afterPath="$PROJECT_DIR$/src/components/App.jsx" />
-    </list>
+    <list default="true" id="2ff1667e-bc48-43d9-bcda-ac8198d5f112" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -740,12 +736,12 @@
       <updated>1535609414600</updated>
       <workItem from="1535609416035" duration="15521000" />
       <workItem from="1535729850414" duration="2737000" />
-      <workItem from="1535738072691" duration="8043000" />
+      <workItem from="1535738072691" duration="8638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40322000" />
+    <option name="totallyTimeSpent" value="40917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="100" y="23" width="1580" height="1027" extended-state="0" />
