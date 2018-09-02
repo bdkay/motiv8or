@@ -15,8 +15,10 @@ class App extends Component {
       <div className="app">
         <h3>Goal Coach</h3>
         <AddGoal />
+        <hr />
         <h4>Goals</h4>
         <GoalList />
+        <hr />
         <br /><br /><br /><br />
         <button
           className="btn btn-danger"
